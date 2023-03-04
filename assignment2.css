@@ -1,0 +1,156 @@
+.header{
+    padding:10px;
+    min-width: 1000px; /*stops the header from moving depending on the screen size, was causing issues with moving the actual game around*/
+    
+  }
+body{
+    font-family: 'Orbitron';
+    background-color: #f5eec2;
+  }
+.active {
+    background-color: white !important;
+  }
+#countdown{
+  left:193px;
+  top: 390px;
+  color:white;
+  position: absolute;
+}
+div.centerCircle{
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    background: black;
+    border-radius: 50%;
+    left:65px;
+    top: 210px;
+
+
+}
+div.greenCircle{
+    position: absolute;
+    height: 150px;
+    width:150px;
+    background-color: #6ac618;
+    border-radius: 50%;
+    border:7px solid black;
+}
+  div.redCircle{
+    position: absolute;
+    height: 150px;
+    width:150px;
+    background-color: #e70d00;
+    border-radius: 50%;
+    border:7px solid black;
+    left:220px;
+}
+  div.yellowCircle{
+    position: absolute;
+    height: 150px;
+    width:150px;
+    background-color: #fad750;
+    border-radius: 50%;
+    top: 370px;
+    border:7px solid black;
+}
+  div.blueCircle{
+    position: absolute;
+    height: 150px;
+    width:150px;
+    background-color: #297be3;
+    border-radius: 50%;
+    top: 370px;
+    left:220px;
+    border:7px solid black;
+}
+.allCircles{
+  cursor: pointer; 
+}
+
+.greenCircle:hover{
+  box-shadow: inset 0px 0px 0px 1.5px white;
+}
+.redCircle:hover{
+  box-shadow: inset 0px 0px 0px 1.5px white;
+}
+.yellowCircle:hover{
+  box-shadow: inset 0px 0px 0px 1.5px white;
+}
+.blueCircle:hover{
+  box-shadow: inset 0px 0px 0px 1.5px white;
+}
+
+
+div.statusCircle{
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: red;
+  left:195px;
+  top: 370px;
+}
+
+div.centerUI{
+    position: absolute;
+    padding: 2.5px;
+    left:180px;
+    top: 325px;
+}
+
+
+.startButton{
+    left:160px;
+    top: 330px;
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 10%;
+    padding: 6px 15px;
+    font-family: 'Orbitron';
+    font-size:15px;
+    cursor: pointer;
+
+}
+.startButton:hover{
+  background-color: gray;
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 4px rgba(172, 172, 172, 0.25);
+}
+
+
+
+
+.counter1{
+    left:91.5px;
+    top: 331.5px;
+    position: absolute; 
+    background-color: lightgray;
+    border-radius: 10%;
+    padding: 6px 15px;
+    font-family: 'Orbitron';
+    font-size:15px;
+    cursor: default;
+}
+.counter2{
+    left:251px;
+    top: 331.5px;
+    position: absolute; 
+    background-color: lightgray;
+    border-radius: 10%;
+    padding: 6px 15px;
+    font-family: 'Orbitron';
+    font-size:15px;
+    cursor: default;
+}
+
+.footer{
+  border-top: solid black 1px;
+  padding: 10px;
+  position:absolute;
+  top:600px
+}
+
+.flash {
+  background-color: white;
+}
+

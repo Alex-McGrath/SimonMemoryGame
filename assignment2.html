@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <link rel="stylesheet" href="assignment2.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+        <link rel="shortcut icon" type="image/png" href="assets/simon-ico.png">
+
+        <title>Simon Memory Game</title>
+        <div class="header">
+            <h1 class="text">Simon Memory Game</h1>
+            <h3 id="statusText" class="text">Press Start to play:  </h3>
+
+        </div>
+
+</head>
+<body>
+
+
+        <div class="centerCircle"></div>
+        <div id="statusCircle" class="statusCircle"></div>
+
+        <a id="highScore" class="counter1">00</a>
+        <button class="startButton" onclick="startStatus()">Start</button>
+        <a id="scoreCounter" class="counter2">00</a>
+
+        <div class="allCircles active">
+            <div class="greenCircle" id="green"></div>
+            <div class="redCircle" id="red"></div>
+            <div class="yellowCircle" id="yellow"></div>
+            <div class="blueCircle" id="blue"></div>
+            <div id="countdown"></div>
+
+        </div>
+        <script src="assignment2.js"></script>
+
+</body>
+<div class="footer">Alex McGrath - 21397613
+    <br>
+    CS230 - Assignment 2
+</div>
+</html>
